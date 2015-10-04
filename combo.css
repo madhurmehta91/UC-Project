@@ -1,0 +1,37 @@
+.dropDowndiv {
+    background-color:white;
+    position: absolute;
+    border:1px solid gray;
+}
+
+.option {
+    width : 90%;
+    padding-left : 10px;
+    padding-top : 3px;
+}
+.option:hover {
+    background-color:#99CCFF;
+    color:white;
+}
+
+.field {
+    border : 1px solid gray;
+    width : 130px;
+    display: inline-block;
+    height: 18px;
+}
+
+.label {
+    position : relative;
+    top: -5px;
+}
+
+.searchField {
+    border-color: #99CCFF;
+    margin-top:1px;
+}
+
+.selectedOption {
+    background-color:gray;
+    color:white;
+}
